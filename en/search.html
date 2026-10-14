@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search — NewsRadar</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='14'>&#128225;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+
+</head><body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="index.html"><svg class="logo" viewBox="0 0 196 40" height="30" role="img"
+     aria-label="medocom">
+  <defs>
+    <linearGradient id="mcg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12899e"/>
+      <stop offset="100%" stop-color="#0b5c6b"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="2" width="36" height="36" rx="10" fill="url(#mcg)"/>
+  <circle cx="11.5" cy="20" r="3.1" fill="#fff"/>
+  <path d="M17 13.4a9.2 9.2 0 0 1 0 13.2" fill="none" stroke="#fff"
+        stroke-width="2.3" stroke-linecap="round" opacity=".95"/>
+  <path d="M22.4 9.6a15 15 0 0 1 0 20.8" fill="none" stroke="#fff"
+        stroke-width="2.3" stroke-linecap="round" opacity=".6"/>
+  <path d="M27.8 6a20.7 20.7 0 0 1 0 28" fill="none" stroke="#fff"
+        stroke-width="2.3" stroke-linecap="round" opacity=".3"/>
+  <text x="46" y="27.5" font-family="IBM Plex Sans, system-ui, sans-serif"
+        font-size="23" font-weight="600" letter-spacing="-0.6">
+    <tspan fill="currentColor">medo</tspan><tspan fill="#12899e">com</tspan>
+  </text>
+</svg></a>
+  <div class="stamp">2026-10-14 10:26 UTC</div>
+  <span class="langs"><a class="lang on" href="../en/search.html" hreflang="en">EN</a><a class="lang" href="../tr/search.html" hreflang="tr">TR</a><a class="lang" href="../de/search.html" hreflang="de">DE</a></span>
+  <a class="go" href="search.html">Search</a>
+</div></header>
+<nav class="desks"><div class="desks-in"><a class="desk-link" href="index.html">Top</a><a class="desk-link" href="events.html">Upcoming</a><a class="desk-link" href="c/economy.html">Economy &amp; Growth</a><a class="desk-link" href="c/sport.html">Sport</a><a class="desk-link" href="c/business.html">Business &amp; Corporate</a><a class="desk-link" href="c/culture.html">Culture &amp; Media</a><a class="desk-link" href="c/markets.html">Markets &amp; Finance</a><a class="desk-link" href="c/energy.html">Energy &amp; Commodities</a><a class="desk-link" href="c/trade.html">Trade &amp; Supply Chains</a><a class="desk-link" href="c/society.html">Health, Science &amp; Society</a><a class="desk-link" href="c/politics.html">Politics &amp; Policy</a><a class="desk-link" href="c/justice.html">Law &amp; Justice</a><a class="desk-link" href="c/tech.html">Technology &amp; AI</a><a class="desk-link" href="c/security.html">Conflict &amp; Security</a><a class="desk-link" href="c/climate.html">Climate &amp; Environment</a><a class="desk-link" href="c/labour.html">Jobs &amp; Consumers</a><a class="desk-link" href="c/industry.html">Industry &amp; Infrastructure</a><a class="desk-link" href="c/diplomacy.html">Diplomacy &amp; Institutions</a><a class="desk-link" href="c/religion.html">Religion &amp; Faith</a><a class="desk-link" href="c/money.html">Central Banks &amp; Rates</a><a class="desk-link" href="method.html">How it is measured</a></div></nav>
+<main><div class="rubric"><h2>Search</h2><span class="tail">12,000 stories</span></div><p class="lede">Every story this build carries, not just the ones on the pages. Type a word, a team, a company, a person.</p><div class="searchbar"><input id="q" type="search" placeholder="Try: Erdogan, inflation, UFC, Bayern, Gaza" autocomplete="off" autofocus><select id="desk"><option value="">All desks</option><option value="economy">Economy &amp; Growth</option><option value="sport">Sport</option><option value="business">Business &amp; Corporate</option><option value="culture">Culture &amp; Media</option><option value="markets">Markets &amp; Finance</option><option value="energy">Energy &amp; Commodities</option><option value="trade">Trade &amp; Supply Chains</option><option value="society">Health, Science &amp; Society</option><option value="politics">Politics &amp; Policy</option><option value="justice">Law &amp; Justice</option><option value="tech">Technology &amp; AI</option><option value="security">Conflict &amp; Security</option><option value="climate">Climate &amp; Environment</option><option value="labour">Jobs &amp; Consumers</option><option value="industry">Industry &amp; Infrastructure</option><option value="diplomacy">Diplomacy &amp; Institutions</option><option value="religion">Religion &amp; Faith</option><option value="money">Central Banks &amp; Rates</option></select><select id="region"><option value="">All regions</option><option value="ca">Canada</option><option value="eu">Europe</option><option value="jp">Japan</option><option value="cn">China</option><option value="me">Middle East</option><option value="tr">Turkey</option><option value="nz">New Zealand</option><option value="ve">Venezuela</option><option value="gl">Global &amp; Cross-border</option></select></div><div id="count" class="count"></div><ul class="rows" id="results"></ul><button class="more" id="more" hidden>Show more</button></main>
+<footer>
+  <p><b>Tone</b> is the signal-word balance of headline wording, roughly −1 to +1. It measures how the press wrote, not what happened. <a href="method.html">How it is measured</a>.</p>
+  <p>Headlines link to the publisher that wrote them. Built automatically from public news feeds; rebuilt several times a day.</p>
+</footer>
+<script src="assets/search.js"></script>
+</body></html>
