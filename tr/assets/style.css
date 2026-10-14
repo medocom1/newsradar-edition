@@ -99,6 +99,7 @@ ul.rows li{border-bottom:1px solid var(--rule)}
   font-size:10.5px;color:var(--faint);margin-top:auto}
 .byline .r{color:#fff;border-radius:99px;padding:2px 8px}
 .pick{color:var(--accent)}
+.mt{color:var(--faint);font-size:12px;cursor:help}
 
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
 .chip{display:inline-flex;align-items:center;gap:7px;background:var(--card);
@@ -144,7 +145,11 @@ footer{max-width:1240px;margin:0 auto;padding:22px 20px 60px;border-top:1px soli
 footer p{margin:0 0 10px;max-width:78ch}
 footer b{color:var(--muted)}
 
-.logo{display:block;height:30px;width:auto;color:var(--ink)}
+.mark{display:flex;flex-direction:column;gap:3px}
+.logo{display:block;height:34px;width:auto;color:var(--ink)}
+.strap{font-family:var(--mono);font-size:9px;letter-spacing:.24em;
+  color:var(--faint);padding-left:46px;white-space:nowrap}
+@media (max-width:620px){.logo{height:28px}.strap{display:none}}
 .langs{display:flex;gap:1px;margin-left:auto;border:1px solid var(--rule);
   border-radius:7px;overflow:hidden}
 .lang{padding:6px 10px;font-family:var(--mono);font-size:11px;color:var(--muted);
@@ -208,6 +213,6 @@ mark.pos{background:rgba(44,122,82,.18);color:inherit;border-radius:3px;padding:
 @media (max-width:860px){
   .lead{grid-template-columns:1fr;gap:14px}
   ul.rows{grid-template-columns:1fr}
-  .top-in{flex-wrap:wrap}
+  .top-in{flex-wrap:wrap;gap:10px}
   .stamp{display:none}
 }
