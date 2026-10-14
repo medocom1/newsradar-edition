@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search — NewsRadar</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='14'>&#128225;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+
+</head><body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="index.html">News<span>Radar</span></a>
+  <div class="stamp">2026-10-13 21:12 UTC</div>
+  <a class="go" href="search.html">Search</a>
+</div></header>
+<nav class="desks"><div class="desks-in"><a class="desk-link" href="index.html">Top</a><a class="desk-link" href="events.html">Upcoming</a><a class="desk-link" href="c/economy.html">Economy</a><a class="desk-link" href="c/culture.html">Culture</a><a class="desk-link" href="c/business.html">Business</a><a class="desk-link" href="c/markets.html">Markets</a><a class="desk-link" href="c/energy.html">Energy</a><a class="desk-link" href="c/trade.html">Trade</a><a class="desk-link" href="c/society.html">Society</a><a class="desk-link" href="c/politics.html">Politics</a><a class="desk-link" href="c/justice.html">Justice</a><a class="desk-link" href="c/tech.html">Tech</a><a class="desk-link" href="c/labour.html">Labour</a><a class="desk-link" href="c/security.html">Security</a><a class="desk-link" href="c/climate.html">Climate</a><a class="desk-link" href="c/industry.html">Industry</a><a class="desk-link" href="c/diplomacy.html">Diplomacy</a><a class="desk-link" href="c/money.html">Rates</a></div></nav>
+<main><div class="rubric"><h2>Search</h2><span class="tail">12,000 stories</span></div><p class="lede">Every story this build carries, not just the ones on the pages. Type a word, a team, a company, a person.</p><div class="searchbar"><input id="q" type="search" placeholder="Try: Erdogan, inflation, UFC, Bayern, Gaza" autocomplete="off" autofocus><select id="desk"><option value="">All desks</option><option value="economy">Economy & Growth</option><option value="culture">Culture & Sport</option><option value="business">Business & Corporate</option><option value="markets">Markets & Finance</option><option value="energy">Energy & Commodities</option><option value="trade">Trade & Supply Chains</option><option value="society">Health, Science & Society</option><option value="politics">Politics & Policy</option><option value="justice">Law & Justice</option><option value="tech">Technology & AI</option><option value="labour">Jobs & Consumers</option><option value="security">Conflict & Security</option><option value="climate">Climate & Environment</option><option value="industry">Industry & Infrastructure</option><option value="diplomacy">Diplomacy & Institutions</option><option value="money">Central Banks & Rates</option></select><select id="region"><option value="">All regions</option><option value="ca">Canada</option><option value="eu">Europe</option><option value="jp">Japan</option><option value="cn">China</option><option value="me">Middle East</option><option value="tr">Turkey</option><option value="nz">New Zealand</option><option value="ve">Venezuela</option><option value="gl">Global &amp; Cross-border</option></select></div><div id="count" class="count"></div><ul class="rows" id="results"></ul><button class="more" id="more" hidden>Show more</button></main>
+<footer>
+  <p><b>Tone</b> is the signal-word balance of headline wording, roughly
+  &minus;1 to +1. It measures how the press wrote, not what happened. Story
+  volume is never reported: a single query returns at most about a hundred
+  items, so counting it would describe that ceiling rather than the coverage.</p>
+  <p>Headlines link to the publisher that wrote them. Built automatically from
+  public news feeds; rebuilt several times a day.</p>
+</footer>
+<script src="assets/search.js"></script>
+</body></html>
